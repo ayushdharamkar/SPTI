@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <style>
+        
+        .main{
+           text-align: justify;
+            width: 300px;
+            border: 2px solid;
+            border-radius: 20px;
+            background-color:;
+            padding: 20px;
+            background-color: bisque;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Student Registration</h1>
+        <form action="register">
+         <div>
+            <label for="name">Enter your Name</label> <br>
+            <input type="text" name="name" placeholder="enter your name"><br><br>
+            <div>
+                <label for="age">Enter your age</label><br>
+                <input type="number" name="age" min="18" max="100">
+            </div><br>
+            <div>
+                <label for="username">Enter your College username</label><br>
+                <input type="email" name="username" id="username" placeholder="Username">
+            </div><br>
+            <div>
+                <label for="pass">Enter your password</label><br>
+                <input type="password" name="pass" id="pass" placeholder="Password">
+            </div><br>
+            <div>
+                <label for="gender">What is your gender</label><br>
+                <input type="radio" value="male" name="gender" id="male">
+                 <label for="male"  >Male</label>
+                 <input type="radio" value="female" name="gender" id="female" >
+                 <label for="female">Female</label>
+            </div><br>
+            <div>
+                <label for="date">Enter your Date of Birth</label><br>
+                <input type="date" name="date" id="date" value="date">
+            </div><br>
+            <div>
+                <label for="photo ">Upload your Unique ID</label><br>
+                <input type="file" name="photo" id="photo" value="photo">
+            </div><br>
+            <div>
+              <label for="course">Select your preferred course</label><br>
+               <input type="checkbox" name="course" value="web" id="web">
+              <label for="web">Web Development</label><br>
+             <input type="checkbox" name="course" value="java" id="java">
+              <label for="java">Advance Java</label><br>
+               <input type="checkbox" name="course" value="cpp" id="cpp">
+              <label for="cpp">C++</label><br>
+              <input type="checkbox" value="science" id="science" name="course">
+              <label for="science">Data Science</label><br>
+
+            </div><br>
+            <div>
+            <label for="description">Why do you want to enroll in this cource</label><br>
+            <textarea name="description" id="description" style="width: 250px; height: 150px;" placeholder="Description"></textarea>
+            </div><br>
+            <div>
+            <label for="status">What is your status</label><br>
+            <select name="status" id="status">
+                <option value="student">Student</option>
+                <option value="employe">Employe</option>
+                <option value="other">Other</option>
+                
+
+            </select>
+            </div><br>
+           
+            
+            
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+
+         </div>
+        </form>
+    </div>
+</body>
+</html>

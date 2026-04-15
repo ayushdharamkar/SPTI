@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        figcaption{
+            text-align: center;
+            width: 600px;
+            font-weight: bold;
+        }
+        table{
+            
+            width: 600px;
+            text-align: center;
+            height: 250px;
+            
+        }
+        
+
+    </style>
+
+</head>
+<body>
+    <figcaption>Tables in HTML</figcaption>
+    <table border="1"  cellspacing="8px" cellpadding="10px" >
+        <!-- <colgroup span="3" style="background-color: red;"></colgroup> -->
+        
+    <thead>
+        <tr>
+            <th rowspan="2">Head Section</th>
+            <th colspan="2">Name</th>
+            <th colspan="3">Address</th>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>City</th>
+            <th>postal Code</th>
+            
+            <th>State</th>
+        </tr>
+        
+    </thead>
+    <tbody>
+        <tr>
+            <th rowspan="6">Body Section</th>
+        </tr>
+        <tr>
+            <td>Ayush</td>
+            <td>Dharamkar</td>
+            <td>Akola</td>
+            <td>444001</td>
+            <td>Maharashtra</td>
+        </tr>
+        <tr>
+            <td>Digvijay</td>
+            <td>Deshmukh</td>
+            <td>Solapur</td>
+            <td>441213</td>
+            <td>Maharashtra</td>
+        </tr>
+        <tr>
+            <td colspan="5">Table Split</td>
+        </tr>
+         <tr>
+             <td>Sushil</td>
+            <td>Pathade</td>
+            <td>Parnhani</td>
+            <td>442324</td>
+            <td>Maharashtra</td>
+        </tr>
+         <tr>
+             <td>Harshal</td>
+            <td>Bidgar</td>
+            <td>Narhe</td>
+            <td>411041</td>
+            <td>Maharashtra</td>
+        </tr>
+        
+        
+    </tbody>
+    <tfoot>
+        <tr><th rowspan="2">Footer section</th></tr>
+        <tr>
+            <td colspan="5">
+                &copy;Copyright Reserved
+            </td>
+        </tr>
+    </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        /* background-color: antiquewhite; */
+
+
+
+    }
+
+    .body {
+        display: flex;
+
+    }
+    nav{
+        position: relative;
+    }
+
+    .container {
+        display: flex;
+        /* border: 1px solid red; */
+        margin: 10px;
+        gap: 20px;
+        height: 100px;
+        padding: 20px;
+        justify-content: space-between;
+        background-color: aquamarine;
+        border-radius: 10px;
+       
+        
+
+    }
+
+
+
+
+
+    .main {
+        display: flex;
+        gap: 20px;
+
+
+
+    }
+
+    button {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        border: none;
+        background-color: azure;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        /* border: 1px solid; */
+        padding: 20px;
+        border-radius: 10px;
+        background-color: aquamarine;
+        font-size: 25px;
+
+
+
+
+    }
+
+    ol {
+        list-style: none;
+        display: flex;
+
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="container">
+                <div class="main">
+
+                    <img src="../assets/icons/google-icon.ico" alt="" height="30px">
+                </div>
+
+
+
+
+                <div class="main ">
+                    <ol>
+                        <li class="icon"><a href="">Home</a></li>
+                        <li class="icon"><a href="">About</a></li>
+                        <li class="icon"><a href="">Services</a></li>
+                        <li class="icon"><a href="">Contact Us</a></li>
+                    </ol>
+
+
+
+
+
+                    <button type="button">Login</button>
+                    <button type="button">register</button>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+</body>
+
+</html>

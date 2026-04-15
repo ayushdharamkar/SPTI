@@ -1,0 +1,527 @@
+:root{
+    --nav:#343e74;
+    --button:#53d3cb;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+    font-weight: 300;
+
+}
+header{
+ position: sticky;
+    top: 0px;
+    bottom: 100px;
+    z-index: 1;
+}
+    
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #343e74;
+    padding: 12px;
+    align-items: center;
+    position: relative;
+   
+   
+    width: 100vw;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+}
+
+.item{
+    visibility: hidden;
+    font-size: 1px;
+    color: white;
+    display: flex;
+}
+
+.option{
+    height: 40px;
+    width: 40px;
+    border: 0.1px solid black;
+    padding: 6px;
+    border-radius: 10px;
+   
+
+}
+/* .banner{
+     width: 1500px;
+   
+} */
+.mishti{
+
+  height: 100vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+  
+   overflow: hidden;
+   background-image : url(../assets/images/dog_banner.png) ;  
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* background-position: center;  */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 25px;
+   flex-wrap: wrap;
+   /* background: linear-gradient(to top, rgb(254, 216, 222), rgb(246, 212, 218)); */
+  
+   
+   
+   
+}
+
+.margin{
+    padding: 2px;
+}
+
+.welcome{
+    color: red;
+    font-size: 20px;
+}
+
+.bold{
+    
+    font-size: 35px;
+    /* text-align: center; */
+    
+}
+.button{
+    height: 50px;
+    width: 160px;
+    border-radius: 20px;
+    background-color: var(--button);
+    color: white;
+    border: none;
+}
+.para{
+    text-align: center;
+    
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+ 
+.girldog{
+    height: 50vh;
+    width: 90vw;
+
+}
+.photo{
+    text-align: center;
+    margin-top: 100px;
+}
+.text{
+    margin-left: 15px;
+    margin-right: 10px;
+    
+}
+.para2{
+    padding-top: 10px;
+    
+    
+}
+.light{
+    font-size: 13px;
+    text-align: left;
+    line-height: 25px;
+    margin-right: 20px;
+    color: rgb(139, 139, 139);
+    
+}
+.button2{
+    /* padding-bottom: 70px; */
+    padding-top: 30px;
+}
+.about{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: var(--button);
+    color: white;
+    border: none;
+    
+}
+
+.pp{
+    display: flex;
+    width: 250px;
+    /* border: 2px solid; */
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.big{
+    font-weight: 500;
+    font-size: 23px;
+    color: rgb(66, 88, 128);
+}
+
+.services{
+    background-color: rgb(240, 239, 239);
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+}
+.center{
+    text-align: center;
+}
+.dogs{
+    width: 120px;
+    height: 120px;
+}
+.foot{
+    margin-right: 40px;
+    padding-top: 70px;
+    padding-bottom: 90px;
+
+}
+.bottom{
+    padding-bottom: 100px;
+}
+.quote{
+    background-image: url(../assets/images/background.png) ;
+    height: 450px;
+     /* height: 100vh; */
+    width: 100vw;
+    /* border: 2px solid black; */
+    
+   
+  
+   overflow: hidden;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 25px;
+   flex-wrap: wrap;
+   /* background: linear-gradient(to top, white, white); */
+  
+}
+.aa{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+footer{
+    background-image: url(../assets/images/footer.png);
+      /* height: 100vhv; */
+     
+    width: 100vw;
+    
+    
+   
+  
+   /* overflow: hidden; */
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center; 
+   
+   color: white;
+}
+
+.footer_heading{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.foot_para{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 13px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.email{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 55px;
+    border-radius: 10px;
+    padding-left: 20px;
+
+}
+.trial{
+    margin-top: 10px;
+    background-color: #ff4a5c;
+    margin-bottom: 40px;
+   
+}
+.free{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.menu{
+    padding-top: 50px;
+    margin-left: 20px;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+
+.li{
+    margin-left: 14px;
+    list-style: none;
+    font-size: 14px;
+    padding: 9px;
+
+}
+.leo{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+
+}
+.copyright{
+    padding-bottom: 30px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.navlist{
+    list-style: none;
+}
+.big{
+    width: 70px;
+}
+button{
+    cursor: pointer;
+    transition: all 1s;
+}
+button:hover{
+    background-color: #ff4a5c;
+}
+.border{
+    border-top: 2px solid white;
+    width: 90vw;
+    text-align: center;
+    margin-left: 4%;
+    
+    margin-top: 100px;
+}
+
+
+
+
+@media (min-width:768px) {
+    .mishti{
+       display: block;
+       padding-top: 250px;
+       
+
+    }
+    .para{
+        text-align: left;
+        padding-left: 100px;
+        padding-bottom: 10px;
+        
+    }
+    .foot{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 60px;
+        
+
+    }
+    .girldog{
+        width: 40vw;
+       
+    }
+    .text{
+        width: 40vw;
+        
+    }
+    .ser{
+        display: flex;
+        /* gap: 10px; */
+       
+        
+        flex-wrap: wrap;
+        margin-left: 40px;
+        margin-right: 40px;
+        
+        
+    }
+    .dog{
+        width:40vw;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .center{
+        padding-bottom: 80px;
+    }
+    .foot_para{
+        padding-top: 10px;
+    }
+    .email{
+        width: 500px;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 65px;
+        margin-bottom: 0px;
+    }
+    .trial{
+        width: 150px;
+        text-align: center;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .flexfooter{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .list{
+        width: 20vw;
+    }
+    .leo{
+        margin-left: 60px;
+
+    }
+    .copyright{
+        margin-left: 60px;
+
+    }
+    .margin{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .photo{
+        margin-top: 0px;
+    }
+    .text{
+        /* border: 2px solid black; */
+        width: 270px;
+        text-align:justify;
+    }
+  
+    
+}
+@media (min-width:992px) {
+    .item{
+        visibility: visible;
+        font-size: 16px;
+        text-decoration: none;
+        
+
+    }
+    .navlist{
+        display: flex;
+        gap: 70px;
+    
+        
+        
+    }
+    .option{
+        display: none;
+    }
+    .bold{
+        font-size: 70px;
+        width: 700px;
+        
+    }
+    .mishti{
+        background-position: center; 
+
+    }
+    .para{
+        padding-left: 200px;
+    }
+    .girldog{
+        height: 580px;
+        width: 37vw;
+    }
+    .foot{
+        justify-content: center;
+        align-items: center;
+    }
+    .footheading{
+        font-size: 40px;
+        
+    }
+    .text{
+        width: 500px;
+        
+    }
+    .serhead{
+        font-size: 45px;
+    }
+   .width{
+    width: 50vw;
+
+   }
+   .ser{
+    flex-wrap: nowrap;
+
+
+   }
+   .dog{
+    width: 500px;
+   }
+   
+   .dogs{
+    width: 20vw;
+    height: 300px;
+   }
+   .head3{
+    font-size: 30px;
+   }
+   .quote{
+    height: 100vh;
+   }
+   .email{
+    width: 350px;
+
+   }
+   .trial{
+    width: 120px;
+
+   }
+   .flexfooter{
+    justify-content: center;
+    padding: auto;
+   }
+  
+   .email{
+    border-radius: 0px;
+
+   }
+   .trial{
+    border-radius: 0px;
+    position: relative;
+    right: 5.1px;
+    top: 0.3px;
+    
+   }
+ 
+   
+   
+   
+   
+}

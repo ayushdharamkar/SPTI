@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            
+        }
+        nav{
+            width: 100vw;
+            /* border: 2px solid; */
+            border-radius: 10px;
+            height: 70px;
+            padding: 8px;
+            display: flex;
+            background-color: antiquewhite;
+            position: relative;
+            gap: 40px;
+            justify-content: space-between;
+            align-items: center;
+        }
+        img{
+            height: 50px;
+            width: 50px;
+        }
+       
+        .hide{
+            visibility: hidden;
+            
+        }
+        .show{
+            position: absolute;
+            right: 2px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 4vh;
+        }
+        button{
+            height: 30px;
+            width: 70px;
+            border-radius: 7px;
+            border: none;
+            padding: 3px;
+            
+        }
+        
+
+        @media (min-width:768px){
+            .show{
+                visibility: hidden;
+
+            }
+            .hide{
+                visibility: visible;
+            }
+            ol{
+                display: flex;
+                gap: 30px;
+                list-style: none;
+                
+                
+            }
+        }
+      
+
+    </style>
+</head>
+<body>
+    
+   <header>
+
+    <nav>
+        <div class="navigation google" >
+            <img src="../assets/icons/google.ico" alt="">
+
+
+
+        </div>
+        <div class="navigaton show">
+            <img src="../node_modules/bootstrap-icons/icons/three-dots-vertical.svg" alt="">
+        </div>
+        <div class="nzvigation hide">
+            <ol>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact us</a></li>
+            </ol>
+        </div>
+        <div class="nzvigation hide">
+            <button>Login</button>
+            <button>Register</button>
+        </div>
+    </nav>
+   </header>
+
+</body>
+</html>

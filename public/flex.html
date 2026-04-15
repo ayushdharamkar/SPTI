@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            border: 2px solid red;
+          display: flex;
+          /* This will make the items to view in horizontal */
+          height: 80vh;
+          
+          /* align-items: center; */
+          /* align-items: end; */
+          /* align-items: start; */
+          justify-content: center;
+          /* justify-content: end; */
+          /* justify-content: flex-end; */
+          /* justify-content: right; */
+          /* justify-content:left ; */
+          /* justify-content: space-around; */
+          /* justify-content: space-between; */
+          /* justify-content: space-evenly; */
+          /* flex-direction: column; */
+          /* flex-direction: column-reverse; */
+          /* flex-direction: row; */
+          /* flex-direction: row-reverse; */
+          /* flex-wrap: wrap; */
+          /* flex-wrap: wrap-reverse; */
+          align-content: center;
+          /* align-content: end; */
+          /* align-content: start; */
+          /* inatead of using flex wrap and flex direction we can directly use attribute  flex-flow:  */
+          flex-flow: row wrap;
+          /* row-gap: 30px; */
+          /* column-gap: 20px; */
+          /* inatead of using column gap and row gap properties differently we can directly us as given below where first is your row and second is column */
+          gap: 30px 20px ;
+
+          
+
+          
+          
+        }
+        .item{
+         height: 80px;
+         width: 70px;
+         background-color: aqua;
+         /* margin: 5px; */
+         /* padding: 10px; */
+         border: 2px solid;
+         /* align-self: flex-start; */
+         
+        }
+        .item1{
+            order: 1;
+        }
+        .item3{
+            order: 4;
+        }
+        .item2{
+            order: 3;
+        }
+        img{
+            height: 80px;
+            width: 70px;
+        }
+        /* the more the order we will give to an elemaent it will appear last in the flexbox  */
+        /* in above example 3 has highest order so it will be placed in last by using these properties we can give the position to the items */
+
+    </style>
+</head>
+<body>
+     <div class="container">
+        <div class="item item1"> <img src="../assets/images/bird.webp" alt="bird" ></div>
+        <div class="item item2"><img src="../assets/images/cat.webp" alt=""></div>
+        <div class="item item3"><img src="../assets/images/download.webp" alt=""></div>
+        <div class="item item4"><img src="../assets/images/flower.webp" alt=""></div>
+        <div class="item item5" ><img src="../assets/images/view.webp" alt=""></div>
+        <!-- <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div> -->
+        
+       
+        
+     </div>
+    
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: antiquewhite;
+
+        }
+
+        img {
+            width: 100vw;
+            height: 300px;
+            border: 2px solid yellow;
+            margin: 10px;
+            padding: 5px;
+            border-radius: 20px;
+        }
+
+       @media ( min-width:768px ){
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        img{
+            width: 40vw;
+
+          
+        }
+        @media ( min-width:992px  ){
+            .container{
+                justify-content: center;
+            }
+            img{
+                width: 20vw;
+            }
+        }
+       }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"><img src="../assets/images/bird.webp" alt=""></div>
+        <div class="box"> <img src="../assets/images/cat.webp" alt=""></div>
+        <div class="box"><img src="../assets/images/cricket.webp" alt=""></div>
+        <div class="box"><img src="../assets/images/download.webp" alt=""></div>
+        <div class="box"><img src="../assets/images/flower.webp" alt=""></div>
+        <div class="box"><img src="../assets/images/hills.webp" alt=""></div>
+        <div class="box"><img src="../assets/images/nature.webp" alt=""></div>
+        <div class="box"><img src="../assets/images/view.webp" alt=""></div>
+    </div>
+</body>
+
+</html>
